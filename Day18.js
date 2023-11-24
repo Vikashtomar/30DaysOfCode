@@ -1,4 +1,6 @@
-// **Challenge 18**  
+// **Challenge 18** 
+#discord
+#scaler 
 // Problem Description:  
 // Write a JavaScript function named doubleValues that takes an array of numbers and returns a new array where each number is doubled using the map() method.  
 // Inputs:  
