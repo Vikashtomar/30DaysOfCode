@@ -5,7 +5,7 @@
 // An array of numbers.  
 // Outputs:  
 // An array of numbers where each number is doubled.  
-// Hints:  
+// Hints:   
 // The map() method creates a new array with the results of calling a function for every array element.
 
 function doubleValues(nums){
