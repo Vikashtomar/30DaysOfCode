@@ -13,15 +13,19 @@
 // reverse a number
 
 
-function reversenum(num){
-    let reversed = 0;
-        while(num > 0){
-        reversed=   (reversed * 10)+ (num %10);
-      num =   Math.floor(num/10)
-    }
-    return reversed
+//  function reverseA_Num(num){
+//   let reversed = 0;
+//   while(num > 0){
+//     reversed = num * 10 + (num%10)
+//     num = Math.floor(num/10)
+//   }
+//   return reversed;
 
-}
-  let result = reversenum(123)
+//  }
+//   let result = reverseA_Num(321);
+//   console.log(result)
 
-  console.log("result",result)
+
+// let items = ["🍎","🍌","🍊","🥭","🍇"]
+// console.log(items)
+console.log("Practice Start");
