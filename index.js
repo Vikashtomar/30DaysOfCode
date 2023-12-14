@@ -20,7 +20,7 @@ function reversenum(num){
       num =   Math.floor(num/10)
     }
     return reversed
-
+ 
 }
   let result = reversenum(123)
 
