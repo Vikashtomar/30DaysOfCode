@@ -60,5 +60,25 @@
 // const x = y();
 // console.log(x());
 
- // 
+ 
 //  console.log("kk")
+// let result = getFileExtension('../vikash.txt');
+// console.log(result)
+
+
+// reverse a number
+
+
+function reversenum(num){
+    let reversed = 0;
+        while(num > 0){
+        reversed=   (reversed * 10)+ (num %10);
+      num =   Math.floor(num/10)
+    }
+    return reversed
+ 
+}
+  let result = reversenum(123)
+
+  console.log("result",result)
+// >>>>>>> 28a150c0fc1c010fed4da57e6395de4b87f48baf
