@@ -16,7 +16,7 @@
 
       
 
-        return nums.reduce((acc,curr) => acc + curr)
+        return nums.reduce((acc,curr) => acc + curr) 
 
     }
 
