@@ -6,7 +6,7 @@
 function checkNumberRange(x,y){
     if((x >= 50 && x <= 99 ) || (y >= 50 && y<= 99))
     {
-        return true
+        return true  
     }
     else {
         return false

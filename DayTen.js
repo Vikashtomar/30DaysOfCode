@@ -7,12 +7,14 @@
 
 function bubblefunc(arr) {
     for (let i = 0, len = arr.length; i < len - 1; i++)
+
       for (let j = 0; j < len - 1 - i; j++)
         if (arr[j] < arr[j + 1])
           [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
     return arr;
   }
   
-  const samplevalues = [12, 345, 4, 546, 122, 84, 98, 64, 9, 1, 3223, 455, 23, 234, 213];
-  console.log(bubblefunc(samplevalues));
+  const values = [12, 345, 4, 546, 122, 84, 98, 64, 9, 1, 3223, 455, 23, 234, 213];
+  console.log(bubblefunc(values));
   
+ 

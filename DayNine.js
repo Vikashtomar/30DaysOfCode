@@ -9,6 +9,6 @@ function firstnotRepeat(str) {
   
   const inputStr = 'abacddbec';
   const result =  firstnotRepeat(inputStr);
-  console.log('First non-repeated character:', result);
+  console.log('First non-repeated character:', result); 
   
   

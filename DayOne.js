@@ -19,6 +19,15 @@ function reverseNum(num){
     let revx = reverseNum(x)
     console.log(revx)
 
+// function reversekaro(num){
+//     let reversed = 0;
+//     while(num > 0){
+//         reversed = (reversed * 10) + (num % 10);
+//         num = Math.floor(num / 10)
+//     }
+
+// }
+
 
 
  
