@@ -69,16 +69,52 @@
 // reverse a number
 
 
-function reversenum(num){
-    let reversed = 0;
-        while(num > 0){
-        reversed=   (reversed * 10)+ (num %10);
-      num =   Math.floor(num/10)
-    }
-    return reversed
+// function reversenum(num){
+//     let reversed = 0;
+//         while(num > 0){
+//         reversed=   (reversed * 10)+ (num %10);
+//       num =   Math.floor(num/10)
+//     }
+//     return reversed
  
-}
-  let result = reversenum(123)
+// }
+//   let result = reversenum(123)
 
-  console.log("result",result)
+//   console.log("result",result)
 // >>>>>>> 28a150c0fc1c010fed4da57e6395de4b87f48baf
+
+// function factorial(n){
+//   let result = 1
+
+// for(let i =n; i>0; i--){
+//   result *= i;
+// }
+// return result;
+
+// }
+
+// console.log(factorial(10))
+
+// function myfunc(n){
+//   if(n ===0){
+//     return n = 1
+
+//   }
+//   return n * myfunc(n-1)
+// }
+// console.log(myfunc(100))
+
+//  let person ={
+//   fname: "vikas",
+//   lName: "tomar"
+//  }
+ 
+//  let {fname: myfirstName, lName: lastName } = person;
+
+//  console.log(myfirstName);
+
+// filter method
+const words = ['apple','banana','cherry','date'];
+const longword = words.filter((word)=>word.length > 6);
+console.log(longword)
+
