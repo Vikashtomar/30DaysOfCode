@@ -114,7 +114,31 @@
 //  console.log(myfirstName);
 
 // filter method
-const words = ['apple','banana','cherry','date'];
-const longword = words.filter((word)=>word.length > 6);
-console.log(longword)
+// const words = ['apple','banana','cherry','date'];
+// const longword = words.filter((word)=>word.length > 5);
+// console.log(longword)
 
+// promise program :: async and await
+
+function fetchData(){
+    return new Promise(resolve =>{
+        setTimeout(()=>{
+            resolve("Data Fetched");
+        
+        },2000);
+    });
+}
+ //Async function using await to handle asynchronous
+
+ async function fetchDataAsync(){
+    console.log("start fetching... data");
+    try {
+        const result = await fetchData();
+        console.log(result);
+    }
+    catch(error){
+        console.error("Error fetching data:",error);
+    }
+    console.log("End fetching data.");
+ }
+ fetchDataAsync()
