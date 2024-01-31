@@ -13,13 +13,22 @@
 
 // console.log(getRandom(6,10))
 
- function factorial(n){
-    if(n === 0 || n === 1){
-        return 1;
-    }
-    else{
-        return n * factorial(n-1);
-    }
- }
- const num = 7;
- console.log(`Factorial of ${num}`,factorial(num));
+//  function factorial(n){
+//     if(n === 0 || n === 1){
+//         return 1;
+//     }
+//     else{
+//         return n * factorial(n-1);
+//     }
+//  }
+//  const num = 7;
+//  console.log(`Factorial of ${num}`,factorial(num));
+
+// Reverse a String...
+
+function reverseStr(str){
+    return str.split("").reverse().join("");
+}
+
+//Test karunga ab
+console.log(reverseStr("google"))
