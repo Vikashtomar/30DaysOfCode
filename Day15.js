@@ -4,7 +4,7 @@
 // // Test Data :
 // // console.log(string_chop('Scaler'));
 // // console.log(string_chop('Scaler',2));
-// // ["Scaler"]
+// // ["Scaler"] 
 // // ['Sc' , 'al' ,'er']
 
 // function chopStr(str,size){
