@@ -18,4 +18,4 @@ console.log(paircheckfor50(50));
 
 console.log(paircheckfor50(30,20));
 
-console.log(paircheckfor50(25,24));
+console.log(paircheckfor50(25,2));
