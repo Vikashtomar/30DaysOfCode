@@ -4,7 +4,7 @@
 
 function paircheckfor50(num, num2) {
   if (num === 50) {
-    return true;
+    return true; 
   } else if (num2 === 50) {
     return true;
   } else if (num + num2 == 50) {
