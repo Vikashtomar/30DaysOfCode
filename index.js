@@ -120,25 +120,37 @@
 
 // promise program :: async and await
 
-function fetchData(){
-    return new Promise(resolve =>{
-        setTimeout(()=>{
-            resolve("Data Fetched");
+// function fetchData(){
+//     return new Promise(resolve =>{
+//         setTimeout(()=>{
+//             resolve("Data Fetched");
         
-        },2000);
-    });
-}
+//         },2000);
+//     });
+// }
  //Async function using await to handle asynchronous
 
- async function fetchDataAsync(){
-    console.log("start fetching... data");
-    try {
-        const result = await fetchData();
-        console.log(result);
-    }
-    catch(error){
-        console.error("Error fetching data:",error);
-    }
-    console.log("End fetching data.");
- }
- fetchDataAsync()
+//  async function fetchDataAsync(){
+//     console.log("start fetching... data");
+//     try {
+//         const result = await fetchData();
+//         console.log(result);
+//     }
+//     catch(error){
+//         console.error("Error fetching data:",error);
+//     }
+//     console.log("End fetching data.");
+//  }
+//  fetchDataAsync()
+
+
+// setTimeout( function hi(){
+//     console.log("1 sec");
+// }, 1000);
+// hi()
+
+// shortest string
+const fruits = ["apple","banana","kiwi","orange"];
+const shortName = fruits.reduce((shortest,current)=>
+current.length<shortest.length ? current : shortest,fruits[0])
+console.log(shortName);
