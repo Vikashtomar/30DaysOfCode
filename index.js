@@ -150,7 +150,14 @@
 // hi()
 
 // shortest string
-const fruits = ["apple","banana","kiwi","orange"];
+const fruits = ["apple","kk","banana","kiwi","orange"];
 const shortName = fruits.reduce((shortest,current)=>
-current.length<shortest.length ? current : shortest,fruits[0])
+current.length<shortest.length ? current : shortest,fruits[2])
 console.log(shortName);
+
+
+let names = ["ram","shayam","seeta","geeta"];
+const makeitShort = names.reduce((shrt,curr)=>
+curr.length<shrt.length ? curr : shrt,names[0])
+
+console.log(makeitShort);
