@@ -150,14 +150,26 @@
 // hi()
 
 // shortest string
-const fruits = ["apple","kk","banana","kiwi","orange"];
-const shortName = fruits.reduce((shortest,current)=>
-current.length<shortest.length ? current : shortest,fruits[2])
-console.log(shortName);
+// const fruits = ["apple","kk","banana","kiwi","orange"];
+// const shortName = fruits.reduce((shortest,current)=>
+// current.length<shortest.length ? current : shortest,fruits[2])
+// console.log(shortName);
 
 
-let names = ["ram","shayam","seeta","geeta"];
-const makeitShort = names.reduce((shrt,curr)=>
-curr.length<shrt.length ? curr : shrt,names[0])
+// let names = ["ram","shayam","seeta","geeta"];
+// const makeitShort = names.reduce((shrt,curr)=>
+// curr.length<shrt.length ? curr : shrt,names[0])
 
-console.log(makeitShort);
+// console.log(makeitShort);
+
+function makeItreverse(num){
+    let reversed = 0;
+    while(num > 0){
+        reversed = (reversed * 10) + (num % 10);
+        num = Math.floor(num/10);
+    }
+    return reversed;
+}
+let x = 7865;
+let revx = makeItreverse(x)
+console.log(revx);
