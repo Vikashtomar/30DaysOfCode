@@ -20,3 +20,19 @@ console.log(paircheckfor50(30,20));
 
 console.log(paircheckfor50(25,2));
  
+
+//  how to add "t" in my name after every letter in my name?
+// **Challenge 8**
+// Write a JavaScript program to add "t" after every letter in your name.
+function addTAfterEachLetter(name) {
+  let result = '';
+  for (let i = 0; i < name.length; i++) {
+    result += name[i] + 't';
+  }
+  return result;
+}
+
+console.log(addTAfterEachLetter("John"));
+console.log(addTAfterEachLetter("Jane"));
+console.log(addTAfterEachLetter("vik"));
+
