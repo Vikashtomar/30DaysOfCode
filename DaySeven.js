@@ -35,4 +35,13 @@ function addTAfterEachLetter(name) {
 console.log(addTAfterEachLetter("John"));
 console.log(addTAfterEachLetter("Jane"));
 console.log(addTAfterEachLetter("vik"));
+// **Challenge 9**
+// Write a JavaScript program to check if a number is even or odd.
+function isEvenOrOdd(num) {
+  if (num % 2 === 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
+}
 
